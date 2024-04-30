@@ -1,0 +1,31 @@
+GET http://localhost:3000/libros HTTP/1.1
+
+###
+
+GET http://localhost:3000/libros/1 HTTP/1.1
+
+###
+POST http://localhost:3000/libros HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "What goes around, Comes around",
+    "autor": "Jhon Doe",
+    "año": 2022,
+    "precio": "US$ 45"
+}
+
+###
+PUT http://localhost:3000/libros/4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "precio": "US$ 80"
+}
+
+###
+
+DELETE http://localhost:3000/libros/4 HTTP/1.1
+
+###
+

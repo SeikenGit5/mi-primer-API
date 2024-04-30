@@ -1,0 +1,17 @@
+{
+    "libros": [
+        {
+            "id": 1,
+            "name": "Whas goes around, Comes around",
+            "author": "John Doe",
+            "year": 2022
+
+        },
+        {
+            "id": 2,
+            "name": "Flores y sus poderes",
+            "author": "Jane Doe",
+            "year": 2023
+        }
+    ]
+}

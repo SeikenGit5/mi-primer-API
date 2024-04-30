@@ -1,0 +1,24 @@
+
+ {
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "description": "API-REST con Nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Salazar Agustina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+
+
+ }
